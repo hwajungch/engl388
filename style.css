@@ -1,3 +1,7 @@
+body {
+  margin: 100px 10%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -28,4 +32,17 @@ li a:hover {
 
 .active {
   background-color: #94a1f5;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding-left: 10px;
 }
